@@ -4,7 +4,8 @@
 My project includes the following files:
 * model.py containing the script to create and train the model
 * drive.py for driving the car in autonomous mode
-* model.h5 containing a trained convolution neural network 
+* model.h5 containing a trained convolution neural network
+* driveVideo.mp4 is the video of the autonomous driving using model.h5
 * writeup_report.md summarizing the results
 
 ### 1. Model Architecture
