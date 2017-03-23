@@ -83,6 +83,11 @@ Right Camera:
 
 ![alt text](./images/right_cam.png)
 
+I also crop the top and bottom section of the image to remove unnecessary artifacts like tree, clouds, water, etc, that might complicate the learning process.  
+The cropped image looks like this:
+
+![alt text](./images/center_cam_cropped.png)
+
 #### 4. Data augmentation
 
 To augment the data sat, I also flipped images and angles thinking that this would reduce left turn bias because I only collected the data from driving the track in one direction. 
@@ -122,3 +127,8 @@ Loss plot:
 ![alt text](./images/loss_history.png)
 
 The validation loss is the smallest at epoch 6. 
+
+
+```python
+
+```
